@@ -16,18 +16,19 @@ dependencies:
   - "pandas"
   - "scipy"
   - "xarray"
-  - "rasterio"
-  - "shapely"
 
   # geo
   - "jupytergis >=0.5.0"
   - "leafmap"
+  - "folium"
   - "geopandas"
   - "gdal"
   - "geos"
   - "geotiff"
   - "h5netcdf"
   - "h5py"
+  - "rasterio"
+  - "shapely"
 
   # Publishing
   - "mystmd"
