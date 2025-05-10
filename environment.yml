@@ -21,6 +21,7 @@ dependencies:
 
   # geo
   - "jupytergis >=0.5.0"
+  - "leafmap"
   - "geopandas"
   - "gdal"
   - "geos"
