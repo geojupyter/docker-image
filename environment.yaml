@@ -1,0 +1,39 @@
+version: 2
+channels:
+  - "conda-forge"
+  - "nodefaults"
+dependencies:
+  - "jupyterlab"
+  - "jupyterlab-favorites"
+  - "jupyterlab-collaboration"
+  - "jupyterlab-myst"
+  - "jupyterlab-geojson"
+  - "nbdime"
+
+  # Python mainstays
+  - "numpy"
+  - "matplotlib"
+  - "pandas"
+  - "scipy"
+  - "xarray"
+  - "rasterio"
+  - "shapely"
+
+  # geo
+  - "jupytergis >=0.5.0"
+  - "geopandas"
+  - "gdal"
+  - "geos"
+  - "geotiff"
+  - "hdf5netcdf"
+  - "h5py"
+
+  # Publishing
+  - "mystmd"
+  - "typst"
+
+  # Testing and validation
+  - "ruff"
+
+  # Misc. utilities
+  - "gh"
