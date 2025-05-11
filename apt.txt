@@ -17,6 +17,7 @@ wget
 nano
 jed
 emacs-nox
+vim
 
 # Version control
 git
