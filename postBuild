@@ -1,6 +1,16 @@
 #!/bin/bash -l
 set -euo pipefail
 
+# Resolve spammy terminal user experience. Remove after this PR is merged:
+# https://github.com/jupyterhub/repo2docker/pull/1425
+# The file is writeable, but the parent directory isn't writeable. `sed
+# --in-place` writes a temporary file to the parent directory, so we need to
+# work on a copy, then copy it bach.
+cp /etc/profile.d/activate-conda.sh /tmp/activate-conda.sh
+sed --in-place "s/^set -ex$/set -e/" /tmp/activate-conda.sh
+sed --in-place "s/^set +ex$/set +e/" /tmp/activate-conda.sh
+cp /tmp/activate-conda.sh /etc/profile.d/activate-conda.sh
+
 # Put our custom Jupyter Server config into appropriate platform
 # This path is determined by looking at output of `jupyter --path` in the hub
 # We copy both to notebook server config and jupyter server config, because either can be
