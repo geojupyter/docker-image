@@ -3,7 +3,7 @@ channels:
   - "conda-forge"
   - "nodefaults"
 dependencies:
-  - "jupyterlab"
+  - "jupyterlab>=4.4.2"
   - "jupyterlab-favorites"
   - "jupyter-collaboration"
   - "jupyterlab-myst"
