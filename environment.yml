@@ -6,6 +6,7 @@ dependencies:
   - "jupyterlab>=4.4.2"
   - "jupyterlab-favorites"
   - "jupyter-collaboration"
+  - "jupyter-server-proxy"
   - "jupyterlab-myst"
   - "jupyterlab-geojson"
   - "nbdime"
