@@ -11,10 +11,15 @@ dependencies:
   - "jupyterlab-myst"
   - "jupyterlab-geojson"
   - "nbdime"
+  - "dask"
+  - "boto3"
+  - "urllib3 ~=1.26.19"  # https://github.com/psf/requests/issues/6443
 
   # Python mainstays
   - "numpy"
   - "matplotlib"
+  - "ipympl"
+  - "hvplot"
   - "pandas"
   - "scipy"
   - "xarray"
@@ -30,7 +35,11 @@ dependencies:
   - "h5netcdf"
   - "h5py"
   - "rasterio"
+  - "rioxarray"
+  - "cartopy"
   - "shapely"
+  - "geoviews"
+  - "intake-stac"
 
   # Publishing
   - "mystmd"
