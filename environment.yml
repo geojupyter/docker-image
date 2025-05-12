@@ -39,7 +39,7 @@ dependencies:
   - "cartopy"
   - "shapely"
   - "geoviews"
-  - "stac-client"
+  - "pystac-client"
   - "intake-stac"
   - "icepyx"
 
