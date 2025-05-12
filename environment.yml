@@ -39,7 +39,9 @@ dependencies:
   - "cartopy"
   - "shapely"
   - "geoviews"
+  - "stac-client"
   - "intake-stac"
+  - "icepyx"
 
   # Publishing
   - "mystmd"
