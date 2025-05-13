@@ -41,6 +41,7 @@ dependencies:
   - "geoviews"
   - "pystac-client"
   - "intake-stac"
+  - "intake-xarray <2"
   - "icepyx >=1.3.0,<2"
 
   # Publishing
