@@ -41,7 +41,7 @@ dependencies:
   - "geoviews"
   - "pystac-client"
   - "intake-stac"
-  - "icepyx"
+  - "icepyx<2"
 
   # Publishing
   - "mystmd"
