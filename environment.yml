@@ -12,6 +12,7 @@ dependencies:
   - "nbdime"
   - "dask"
   - "boto3"
+  - "s3fs"
   - "urllib3 ~=1.26.19"  # https://github.com/psf/requests/issues/6443
 
   # Python mainstays
