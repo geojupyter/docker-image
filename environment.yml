@@ -3,7 +3,7 @@ channels:
   - "nodefaults"
 dependencies:
   - "python>=3.12"
-  - "jupyterlab~=4.2.7"  # Downgraded to enable links to be visible again. See <https://github.com/jupyter-book/jupyterlab-myst/issues/248>
+  - "jupyterlab>=4.4.2"
   - "jupyterlab-favorites"
   - "jupyter-collaboration"
   - "jupyter-server-proxy"
