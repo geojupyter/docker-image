@@ -50,6 +50,7 @@ dependencies:
 
   # Testing and validation
   - "ruff"
+  - "pre-commit"
 
   # GitHub utilities
   - "gh"
