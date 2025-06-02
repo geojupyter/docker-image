@@ -5,7 +5,6 @@ dependencies:
   - "python>=3.12"
   - "jupyterlab>=4.4.2"
   - "jupyterlab-favorites"
-  - "jupyter-collaboration"
   - "jupyter-server-proxy"
   - "jupyterlab-myst"
   - "jupyterlab-geojson"
@@ -55,3 +54,6 @@ dependencies:
   # GitHub utilities
   - "gh"
   - "gh-scoped-creds"
+  - "pip"
+  - pip:
+    - "jupyter-collaboration==4.1.0rc0"
