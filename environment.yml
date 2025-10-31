@@ -54,6 +54,3 @@ dependencies:
   # GitHub utilities
   - "gh"
   - "gh-scoped-creds"
-  - "pip"
-  - pip:
-    - "jupyter-collaboration==4.1.0rc0"
